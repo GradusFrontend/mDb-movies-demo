@@ -35,7 +35,6 @@ function GenresUpdate(arr, place) {
 
     let AGenres = document.querySelectorAll('.promo__menu-item')
 
-    
     let prev = 0
     AGenres.forEach((item, idx) => {
         AGenres[prev].classList.add('promo__menu-item_active')
